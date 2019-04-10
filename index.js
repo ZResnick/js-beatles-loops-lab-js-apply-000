@@ -26,9 +26,9 @@ function johnLennonFacts(factsArr){
   return newArr;
 }
 
+
 function iLoveTheBeatles(num){
   let newArr =[];
-  
   let str = 'I love the Beatles!';
   
   if (num > 15){
