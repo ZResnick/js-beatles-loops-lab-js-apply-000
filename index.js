@@ -8,7 +8,7 @@ function theBeatlesPlay(musicians, instruments){
   for (let i = 0; i < musicians.length; i++){
     let currentMusician = musicians[i];
     let currentInstrument = instruments[i];
-    let curString = `${currentMusician} plays ${currentInstrument}1`;
+    let curString = `${currentMusician} plays ${currentInstrument}`;
     newArr.push(curString);
   }
 }
