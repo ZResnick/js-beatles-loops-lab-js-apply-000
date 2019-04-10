@@ -39,7 +39,7 @@ function iLoveTheBeatles(num){
   do {
     newArr.push(str);
     counter++
-  } while (counter < 15)
+  } while (counter <= 15)
   
   return newArr;
 }
