@@ -21,7 +21,7 @@ function johnLennonFacts(factsArr){
   let newArr = [];
   while (counter < factsArr.length){
     let curString = factsArr[counter];
-    curString + '!!!';
+    curString += '!!!';
     newArr.push(curString);
     counter++;
   }
