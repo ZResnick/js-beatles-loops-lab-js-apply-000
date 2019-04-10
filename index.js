@@ -14,8 +14,6 @@ function theBeatlesPlay(musicians, instruments){
   return newArr
 }
 
-
-
 function johnLennonFacts(factsArr){
   let counter = 0;
   let newArr = [];
@@ -25,5 +23,23 @@ function johnLennonFacts(factsArr){
     newArr.push(curString);
     counter++;
   }
+  return newArr;
+}
+
+function iLoveTheBeatles(num){
+  let newArr =[];
+  
+  let str = 'I love the Beatles!';
+  
+  if (num > 15){
+    newArr.push(str);
+    return newArr;
+  }
+  let counter = 15 - num;
+  do {
+    newArr.push(str);
+    counter++
+  } while (counter < 15)
+  
   return newArr;
 }
