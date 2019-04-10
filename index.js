@@ -14,7 +14,3 @@ function theBeatlesPlay(musicians, instruments){
   return newArr
 }
 
-let music = ['john', 'george', 'ringo', 'paul'];
-let instrument = ['piano', 'guitar', 'drums', 'bass'];
-
-theBeatlesPlay(music, instrument);
