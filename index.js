@@ -11,6 +11,7 @@ function theBeatlesPlay(musicians, instruments){
     let curString = `${currentMusician} plays ${currentInstrument}`;
     newArr.push(curString);
   }
+  return newArr
 }
 
 let music = ['john', 'george', 'ringo', 'paul'];
